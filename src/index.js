@@ -60,7 +60,7 @@ export default class DomqlExecCode {
     this.api = api;
     this.readOnly = readOnly;
 
-    this.placeholder = this.api.i18n.t(config.placeholder || CodeTool.DEFAULT_PLACEHOLDER);
+    this.placeholder = this.api.i18n.t(config.placeholder || DomqlExecCode.DEFAULT_PLACEHOLDER);
 
     this.CSS = {
       baseClass: this.api.styles.block,
