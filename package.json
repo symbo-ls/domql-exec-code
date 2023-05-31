@@ -1,5 +1,5 @@
 {
-  "name": "@editorjs/code",
+  "name": "@editorjs/domql-exec-code",
   "version": "2.8.0",
   "keywords": [
     "codex editor",
@@ -17,8 +17,8 @@
     "build:dev": "webpack --mode development --watch"
   },
   "author": {
-    "name": "CodeX",
-    "email": "team@codex.so"
+    "name": "Guga Katsiashvili",
+    "email": "guga@symbols.app"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",

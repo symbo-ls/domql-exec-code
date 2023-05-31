@@ -12,3 +12,14 @@
     overflow-x: auto;
     resize: vertical;
 }
+
+.ce-code__textarea::before {
+    content: '';
+    background-image: url("https://raw.githubusercontent.com/symbo-ls/platform/3648f17eb2244371111f1d016dde2de7e0da7711/uikit/icons/logos/domql.svg?token=ACFWAWNDMS5HOJ4BXSQMWZDEO4454");
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    position: absolute;
+    margin-top: 8px;
+    left: 0;
+}
