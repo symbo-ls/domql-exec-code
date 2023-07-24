@@ -106,7 +106,7 @@ export default class DomqlExecCode {
     /**
      * Enable keydown handlers
      */
-    textarea.addEventListener('keydown', (event) => {
+    textarea.addEventListener('keydown', function (event) {
       switch (event.code) {
         case 'Tab':
           this.tabHandler(event);
